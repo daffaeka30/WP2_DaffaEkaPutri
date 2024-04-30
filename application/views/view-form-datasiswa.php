@@ -55,7 +55,7 @@
             </tr>
             <tr>
                 <th>Alamat</th>
-                <td>:<td>
+                <td>:</td>
                 <td>
                     <input type="text" name="alamat" id="alamat">
                 </td>
@@ -63,21 +63,15 @@
             <tr>
                 <th>Jenis Kelamin</th>
                 <td class="radio">
-                    <th>
-                        <input type="radio" name="kelamin" value="Laki-laki">
-                        Laki-Laki
-                    </th>
-                </td>
-                <td class="radio">
-                    <th>
-                        <input type="radio" name="kelamin" value="Perempuan">
-                        Perempuan
-                    </th>
+                    <td>
+                        <input type="radio" name="kelamin" value="Laki-laki">Laki-Laki
+                        <input type="radio" name="kelamin" value="Perempuan">Perempuan
+                    </td>
                 </td>
             </tr>
             <tr>
                 <th>Agama</th>
-                <td>:<td>
+                <td>:</td>
                 <td>
                     <select name="agama" id="agama">
                         <option value="">-- Pilih Agama --</option>
